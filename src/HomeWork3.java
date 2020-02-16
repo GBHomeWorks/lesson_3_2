@@ -7,19 +7,11 @@ public class HomeWork3 {
     static Random rand = new Random();
 
     public static void main(String[] args) {
-/*        int x = sc.nextInt();
-        int y = sc.nextInt();
 
-        System.out.printf("%d + %d = %d\n", x, y, x + y);
-
-        String name = sc.nextLine();
-       // name = sc.nextLine();
-        System.out.println(name + " hello!");*/
         int play = 1;
 
         do {
             int number = rand.nextInt(10);
-            System.out.println(number);
             System.out.println("Загадано число от 0 до 9");
 
             for (int i = 0; i < 3; i++) {
